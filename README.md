@@ -17,7 +17,7 @@ ApiImport is both [modman](https://github.com/colinmollenhour/modman) and [compo
 
 ### Install directly with modman
 
-``./modman clone ApiImport https://github.com/danslo/ApiImport.git``
+``./modman clone ApiImport https://github.com/TELL-SRL/ApiImport.git``
 
 ### Install through composer
 
@@ -26,7 +26,7 @@ Add something like the following to your ``composer.json``:
 ```json
 {
     "require": {
-        "danslo/api-import": "1.1.*"
+        "danslo/api-import": "dev-master"
     },
     "extra": {
         "magento-root-dir": "htdocs/"
@@ -34,7 +34,7 @@ Add something like the following to your ``composer.json``:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/danslo/ApiImport.git"
+            "url": "https://github.com/TELL-SRL/ApiImport.git"
         },
         {
             "type": "composer",
